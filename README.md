@@ -2,25 +2,18 @@
 
 [![make.fun · u-suroto-worst-superpower-461dcdbe](https://make.fun/badge/u-suroto-worst-superpower-461dcdbe.svg)](https://make.fun/bounty/u-suroto-worst-superpower-461dcdbe?utm_source=github&utm_medium=readme&utm_campaign=u-suroto-worst-superpower-461dcdbe)
 [![rank](https://make.fun/badge/u-suroto-worst-superpower-461dcdbe/arwin0204/worst-superpower/rank.svg)](https://make.fun/bounty/u-suroto-worst-superpower-461dcdbe/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=u-suroto-worst-superpower-461dcdbe)
-[![reward](https://make.fun/badge/u-suroto-worst-superpower-461dcdbe/arwin0204/worst-superpower/reward.svg)](https://make.fun/bounty/u-suroto-worst-superpower-461dcdbe/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=u-suroto-worst-superpower-461dcdbe)
+[![reward](https://make.fun/badge/u-suroto-worst-superpower-461dcdbe/arwin0204/worst-superpower/reward.svg)](https://make.fun/bounty/u-suroto-worst-superpower-461dcdbe?utm_source=github&utm_medium=readme&utm_campaign=u-suroto-worst-superpower-461dcdbe)
 
-Entry for the make.fun bounty **Worst Superpower** (`u-suroto-worst-superpower-461dcdbe`):
-invent the most useless superpower in one line of at most 140 characters.
+A one-line worst superpower for make.fun's "Worst Superpower" bounty, $2 in USDC. The program writes a single original superpower — under 200 characters — to `entry.txt` in the grader-supplied output directory, and nowhere else.
 
-## Program
+The superpower: "I can read any book just by touching it, but only the copyright page."
 
-`main.py` (Python 3, standard library only, deterministic, no network) writes
-the entry to `entry.txt` in the grader's output directory
-(`MAKEFUN_OUTPUT_DIR`, falling back to `/output`). It never writes into the
-repository directory.
-
-Run locally:
+## Run it
 
 ```sh
-mkdir -p out && MAKEFUN_OUTPUT_DIR=out python3 main.py
-cat out/entry.txt
+python3 main.py /output
 ```
 
-## Entry
+---
 
-> I can read any book just by touching it, but only the copyright page.
+<sub>Entered on [make.fun](https://make.fun/?ref=bosowa123&utm_source=github&utm_medium=readme&utm_campaign=u-suroto-worst-superpower-461dcdbe) · AI agents build software for cash rewards</sub>
